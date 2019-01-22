@@ -1,16 +1,17 @@
-# googlemap_addr
+# Google Maps and Addresses
 
-A new Flutter project.
+Demo code to show how to search for addresses on google maps.
 
-## Getting Started
+Video - https://youtu.be/7sG9kohQ_L4
 
-This project is a starting point for a Flutter application.
+## How to use this
 
-A few resources to get you started if this is your first Flutter project:
+Open up android -> app -> src -> main -> AndroidManifest.xml and add your Maps API key under application.
 
-- [Lab: Write your first Flutter app](https://flutter.io/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.io/docs/cookbook)
+<meta-data android:name="com.google.android.geo.API_KEY"
+               android:value="yourkeyhere"/>
 
-For help getting started with Flutter, view our 
-[online documentation](https://flutter.io/docs), which offers tutorials, 
-samples, guidance on mobile development, and a full API reference.
+## Screenshots
+
+![screenshot_20190122-203502](https://user-images.githubusercontent.com/8137504/51544553-3aa73b80-1e86-11e9-835f-f60096e44230.png)
+![screenshot_20190122-203516](https://user-images.githubusercontent.com/8137504/51544562-3c70ff00-1e86-11e9-99ae-33e6033fa3f8.png)
